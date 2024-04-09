@@ -1,0 +1,39 @@
+button {
+    margin-top: 20px;
+    font-size: 25px;
+    height: 80px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 5px 15px 0 rgb(119, 199, 209);
+    transition: 0.5s;
+    border: 2.5px solid black;
+}
+
+button:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgba(119, 199, 209);
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    min-width: 270px;
+    min-height: 270px;
+    margin: 10px 10px 50px 10px;
+
+}
+
+#photo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
